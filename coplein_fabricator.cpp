@@ -34,7 +34,7 @@ int		main(int ac, char **av)
 		<< "class\t" << str << "\n{\n\tpublic:\n"
 		<< "\t\t" << str << "();\n"
 		<< "\t\t~" << str << "();\n"
-		<< "\t\t" << str << "( const & " << str << " );\n"
+		<< "\t\t" << str << "( const " << str << " & );\n"
 		<< "\t\t" << str << " &\toperator = ( const " << str << " & );\n"
 		<< "};\n\n" << "#endif" << std::endl;
 
